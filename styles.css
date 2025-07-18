@@ -4,18 +4,21 @@ body {
   width: 100vw;
 }
 .header {
-  background-color: thistle;
+  background-color: #ade0db;
   height: 100vh;
   width: 20vw;
+  
 }
+
 .section {
-  background-color: azure;
+  background-color: #ebf2f2;
   height: 100vh;
-  width: 100%;
+  width: 80%;
   text-align: center;
+  padding-right: 5px;
 }
 .principal-tittle {
-  background-color: bisque;
+  background-color: #d0f2e7;
   margin-left: 5px;
   height: 10%;
   width: 100%;
@@ -41,7 +44,12 @@ body {
   width: 100%;
   height: 100%;
   border-radius: 100%;
-
+  
+}
+.icono-img:hover{
+  transform: scale(1.1, 1.1);
+  border: black solid 1px;
+  box-shadow: 2px 4px 10px 4px black;
 }
 
 .text-header {
@@ -53,18 +61,23 @@ body {
 }
 
 .content {
-  background-color: beige;
+  background-color:  #bcebdf;
   width: 100%;
   height: 25%;
   margin-left: 5px;
   margin-bottom: 5px;
 }
 .content > .child {
-  text-align: start;
-  
+  text-align: start;  
   padding-left: 10px;
 }
 .content > .child {
   padding-top: 1px;
-
+  
+}
+.content:hover{
+  /* transform: translate(20px, -10%); */
+  transform: scale(1, 1);
+  border: black solid 1px;
+  box-shadow: 2px 4px 10px 4px black;
 }
